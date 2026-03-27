@@ -1,5 +1,5 @@
 <script setup>
-
+import { Button } from 'primevue'
 </script>
 
 <template>
@@ -8,6 +8,10 @@
     Visit <a href="https://vuejs.org/" target="_blank" rel="noopener">vuejs.org</a> to read the
     documentation
   </p>
+
+  <div>
+    <Button>Button</Button>
+  </div>
 </template>
 
 <style scoped></style>
